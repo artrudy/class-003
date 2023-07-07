@@ -1,0 +1,58 @@
+button {
+    appearance: none;
+    padding: 8px 16px;
+    border: 2px solid orange;
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+    border: 4px solid white;
+    color: seashell;
+    font-weight: bold;
+    float: inline-end;
+}
+
+button:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+button:active {
+    background-color: seashell;
+    color: royalblue;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 0 0 8px rgb(0 0 0 / 0.2);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.card.smaller {
+    max-width: 45ch;
+}
+
+p.smaller {
+    font-size: 0.8rem;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: navy; color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-self: stretch; */
+    justify-content: space-between;
+
+}
+li {
+    float: left;
+   
+    margin: 5px;
+}
+a {
+    text-decoration: none;
+}
